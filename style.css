@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif,Arial, Helvetica;
+}
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+.navbar{
+    display: inline-flex;
+    align-items: center;
+    gap: 25px;
+    padding: 15px 40px;
+    border-bottom: 1px solid #faf8f8;
+}
+.logo img{
+    width: 65px;
+    cursor: pointer;
+}
+.menu{
+    display: flex; /*it will align all the things in one row*/
+    gap: 25px;
+}
+
+.menu h2{
+    color: black;
+    font-weight: 550;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.search-box input{
+    width: 380px;
+    padding: 15px;
+    font-size: medium;
+    background: #faf8f8;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    height: 40px;
+    margin-left: 20px; 
+    cursor: pointer;
+}
+
+.home1 img{
+    padding-top: 50px;
+    margin-left:140px;
+    width: 1000px;
+    height: 220px;
+    padding-bottom: 25px;
+}
+
+.home2 img{
+    width: 1200px;
+    height: 380px;
+    padding-bottom: 70px;
+}
+
+.stars h5{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 70px;
+    margin-left: 30px;
+}
+.stars img{
+    width: 1280px;
+    padding-bottom: 60px;
+}
+
+.luxe h5{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 70px;
+    margin-left: 30px;
+}
+.luxe img{
+    width: 1280px;
+    padding-bottom: 60px;
+}
+
+.brands h5{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 70px;
+    margin-left: 30px;
+}
+.brands img{
+    width: 1280px;
+    padding-bottom: 60px;
+}
+
+.grands h5{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 70px;
+    margin-left: 30px;
+}
+.grands img{
+    width: 1280px;
+    padding-bottom: 60px;
+}
+
+.shops {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 40px;          
+    row-gap: 30px;            
+    column-gap: 20px;         
+}
+
+
+.shops h5 {
+    width: 100%; /* this will take the hole space of heading*/
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    margin-left: 0;
+}
+
+
+.shops img {
+    width: 200px;
+    height: 250px;
+    flex: 0 0 calc(16.66% - 20px);   /* using this to get 6 images in row */
+}
+
+.shop2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 40px;          
+    row-gap: 30px;            
+    column-gap: 20px;
+    justify-content: center;         
+}
+.shop2 img {
+    width: 200px;
+    height: 250px;
+    
+}
+
+.footer-top {
+    display: flex;
+    gap: 80px;
+    padding: 50px 80px;
+}
+
+.footer-col h4 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #282c3f;
+    margin-bottom: 15px;
+}
+
+.footer-sub {
+    margin-top: 30px;
+}
+
+.footer-col p {
+    color: #7E818C;
+    font-size: 13px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.app-links img {
+    width: 120px;      
+    height: auto;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    margin-bottom: 10px;
+    width: 30px;       
+    height: auto;
+    cursor: pointer;
+}
+
+.badge {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.badge img {
+    width: 48px;
+}
+
+.badge p {
+    font-size: 13px;
+    color: #696b79;
+}
+
+.footer-text {
+    padding: 30px 80px;
+    border-top: 1px solid #eaeaec;
+}
+
+.footer-text h4 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #282c3f;
+    margin-bottom: 15px;
+}
+
+.footer-text p {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #7E818C
+}
+
+.footer-last {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    border-top: 1px solid #eaeaec;
+    font-size: 12px;
+    color: #7E818C;
+}
