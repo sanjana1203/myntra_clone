@@ -1,43 +1,43 @@
 # myntra_clone
-A static Myntra homepage clone built using pure HTML and CSS, focusing on layout design, styling, and UI structure similar to the official Myntra website.
+# Myntra Clone Using HTML & CSS
 
-Project Description
+This project is a **Myntra landing page clone** built using **HTML and CSS**.  
+It recreates the visual layout and structure of the Myntra homepage, focusing on frontend design, styling, and layout accuracy.
 
-This project recreates the visual layout of Myntra’s landing page, including the navigation bar, banners, product sections, and footer. It is a frontend-only project created for learning and practicing web development fundamentals.
+## Project Overview
 
-Technologies Used
+- **Type:** Frontend Web Development  
+- **Domain:** Web Design / UI Development  
+- **Technologies:** HTML, CSS  
+- **Project Focus:** UI layout and styling  
 
-HTML5 – Page structure and content
-CSS3 – Styling, layout, flexbox, and spacing
+The project emphasizes clean UI structure, consistent styling, and real-world website cloning.
 
-Project Structure
+## Features
 
-Myntra-Clone/
-│
-├── index.html     # Main HTML file
-├── style.css      # CSS styling file
-├── images/        # Images used in the UI
-└── README.md      # Project documentation
+- Navigation bar with logo, menu items, search bar, and icons  
+- Homepage banners and promotional sections  
+- Category-based shopping sections  
+- Brand and offer highlights  
+- Footer with policies, links, and social media icons  
 
-Features
+## Technologies Used
 
-Myntra-style navigation bar
-Product category sections
-Banner and promotional sections
-Shop by category grid layout
-Footer with policies, app links, and social icons
-Clean and structured UI using Flexbox
+- HTML5  
+- CSS3  
 
-How to Run
+## Applications
 
-Download or clone the repository
-git clone https://github.com/sanjana1203/myntra-clone.git
-Open the project folder
-Open index.html in any web browser
+- Frontend development practice  
+- UI/UX layout learning  
+- Website cloning projects  
+- HTML & CSS portfolio projects  
 
-Learning Outcomes
+## Conclusion
 
-Practiced Flexbox layouts
-Improved understanding of real-world UI cloning
-Learned webpage structuring using semantic HTML
-Improved CSS styling and alignment skills
+This project demonstrates strong frontend fundamentals by recreating a real-world e-commerce website interface using only HTML and CSS.
+
+## Author
+
+**sanjana.h.k**
+
